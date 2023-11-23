@@ -1,0 +1,11 @@
+[utils]
+console_indent = '...'
+
+
+[db_sqlite]
+db_dir='db'
+db_file='db_data.sqlite3'
+
+
+[check_proxy]
+url = 'url_check_proxy_server'
