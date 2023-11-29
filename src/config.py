@@ -36,6 +36,7 @@ try:
     CHECK_PROXY_URL = config['check_proxy']['url']
 
     # DB_FILE = Path(f"{ABS_PATH}/{config['db_sqlite']['db_dir']}/{config['db_sqlite']['db_file']}")
+    DB_FILE = Path(f"src/{config['db_sqlite']['db_dir']}/{config['db_sqlite']['db_file']}")
 
     # logging
     # log_file_name = f'{datetime.now().strftime("%Y-%m-%d")}'
